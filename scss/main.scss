@@ -1,0 +1,16 @@
+@import "media";
+*{
+    margin: 0;
+    padding: 0;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+
+@include media(1400px);
+@include media(1200px);
+@include media(992px);
+@include media(768px);
+@include media(576px);
+@include media(575px);

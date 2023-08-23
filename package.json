@@ -1,0 +1,17 @@
+{
+  "name": "apple-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --watch scss/ --output css/ --recursive"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0",
+    "sass": "^1.57.0",
+    "swiper": "^8.4.5"
+  }
+}
